@@ -1,0 +1,62 @@
+body{
+    /* background-color: rgb(200, 196, 207); */
+    background: url('https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.div{
+    display:flex;
+    justify-content: center;
+    align-items:start;
+}
+#myH1{
+    font-size:3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15%;
+}
+#container{
+    border:5px solid;
+    border-radius: 30px;
+    background-color: rgb(233, 233, 233);
+    font-size:xx-large;
+}
+#display{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(14, 12, 10);
+    margin-bottom: 10px;
+    text-align: center;
+}
+#controls button{
+    font-size:1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin:5px;
+    min-width:125px;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+}
+#startBtn{
+    background-color:rgb(119, 167, 71);
+}
+#startBtn:hover{
+    background-color: chartreuse;
+}
+#stopBtn{
+    background-color: rgb(211, 107, 107);
+}
+#stopBtn:hover{
+    background-color: red;
+}
+#resetBtn{
+    background-color: rgb(88, 88, 170);
+}
+#resetBtn:hover{
+    background-color: blue;
+}
+
